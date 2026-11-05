@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXUS GAMING | Level Up Your World</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            <span class="logo-icon">✦</span>
+            NEXUS<span class="logo-highlight">GAMING</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#games">Games</a>
+            <a href="#categories">Categories</a>
+            <a href="#community">Community</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="login-btn">Login</button>
+            <button class="signup-btn">Sign Up</button>
+        </div>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    <span class="live-dot"></span>
+                    THE NEXT LEVEL OF GAMING
+                </div>
+
+                <h1>
+                    ENTER THE
+                    <span>WORLD OF</span>
+                    GAMING
+                </h1>
+
+                <p>
+                    Discover epic games, explore new worlds,
+                    and experience gaming like never before.
+                    Your next adventure starts here.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#games" class="primary-btn">
+                        Explore Games →
+                    </a>
+
+                    <a href="#community" class="secondary-btn">
+                        Join Community
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <h3>500+</h3>
+                        <span>Games</span>
+                    </div>
+
+                    <div>
+                        <h3>50K+</h3>
+                        <span>Players</span>
+                    </div>
+
+                    <div>
+                        <h3>100+</h3>
+                        <span>Categories</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <div class="hero-image-overlay"></div>
+                <div class="floating-card">
+                    <span>✦ FEATURED EXPERIENCE</span>
+                    <h3>READY PLAYER ONE?</h3>
+                    <p>Your adventure awaits.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- FEATURED GAMES -->
+        <section class="games-section" id="games">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-label">DISCOVER YOUR NEXT ADVENTURE</span>
+                    <h2>Featured Games</h2>
+                </div>
+
+                <a href="#" class="view-all">View All →</a>
+
+            </div>
+
+
+            <div class="games-grid">
+
+                <div class="game-card">
+                    <div class="game-image game-one">
+                        <span class="game-tag">POPULAR</span>
+                    </div>
+
+                    <div class="game-info">
+                        <h3>Action Legends</h3>
+                        <p>Action · Adventure</p>
+                        <div class="game-footer">
+                            <span>⭐ 4.9</span>
+                            <span class="game-category">ACTION</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="game-card">
+                    <div class="game-image game-two">
+                        <span class="game-tag">TRENDING</span>
+                    </div>
+
+                    <div class="game-info">
+                        <h3>Cyber Warriors</h3>
+                        <p>Sci-Fi · Shooting</p>
+                        <div class="game-footer">
+                            <span>⭐ 4.8</span>
+                            <span class="game-category">SHOOTER</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="game-card">
+                    <div class="game-image game-three">
+                        <span class="game-tag">NEW</span>
+                    </div>
+
+                    <div class="game-info">
+                        <h3>Shadow Realm</h3>
+                        <p>Fantasy · RPG</p>
+                        <div class="game-footer">
+                            <span>⭐ 4.7</span>
+                            <span class="game-category">RPG</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="game-card">
+                    <div class="game-image game-four">
+                        <span class="game-tag">FEATURED</span>
+                    </div>
+
+                    <div class="game-info">
+                        <h3>Speed Rush</h3>
+                        <p>Racing · Sports</p>
+                        <div class="game-footer">
+                            <span>⭐ 4.9</span>
+                            <span class="game-category">RACING</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CATEGORIES -->
+        <section class="categories-section" id="categories">
+
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">FIND YOUR PLAYSTYLE</span>
+                    <h2>Explore Categories</h2>
+                </div>
+            </div>
+
+            <div class="category-grid">
+
+                <div class="category-card">
+                    <span>⚔️</span>
+                    <h3>Action</h3>
+                </div>
+
+                <div class="category-card">
+                    <span>🏎️</span>
+                    <h3>Racing</h3>
+                </div>
+
+                <div class="category-card">
+                    <span>🧙</span>
+                    <h3>RPG</h3>
+                </div>
+
+                <div class="category-card">
+                    <span>🎯</span>
+                    <h3>Shooting</h3>
+                </div>
+
+                <div class="category-card">
+                    <span>⚽</span>
+                    <h3>Sports</h3>
+                </div>
+
+                <div class="category-card">
+                    <span>🧩</span>
+                    <h3>Puzzle</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COMMUNITY -->
+        <section class="community-section" id="community">
+
+            <span class="section-label">JOIN THE MOVEMENT</span>
+
+            <h2>PLAY. COMPETE. CONNECT.</h2>
+
+            <p>
+                Become part of the NEXUS gaming community
+                and discover a world built for gamers.
+            </p>
+
+            <button class="primary-btn">
+                Join NEXUS →
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="logo">
+            ✦ NEXUS<span class="logo-highlight">GAMING</span>
+        </div>
+
+        <p>© 2026 NEXUS GAMING. All rights reserved.</p>
+
+        <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
